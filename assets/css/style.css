@@ -47,3 +47,21 @@ main div .prodotti {
     height: 500px;
     background-color: burlywood;
 }
+
+/* FOOTER */
+footer {
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+footer div#contenitore-footer {
+    justify-content: space-between;
+}
+
+footer div .misure-footer {
+    width: 400px;
+    height: 100px;
+}
+
+footer div.info {
+    align-items: center;
+}
