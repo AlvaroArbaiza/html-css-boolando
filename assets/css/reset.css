@@ -5,6 +5,11 @@
     border: 1px dotted black;
 }
 
+.center {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .flex {
     display: flex;
 }

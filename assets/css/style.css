@@ -33,3 +33,17 @@ header nav div#categorie {
 header ul {
     gap: 10px;
 }
+
+/* MAIN */
+main div#catalogo {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    padding: 50px 0;
+}
+
+main div .prodotti {
+    width: calc((100% /3) - 10px);
+    height: 500px;
+    background-color: burlywood;
+}
