@@ -2,12 +2,14 @@
 header {
     background-color: rgb(255, 105, 0);
     color: white;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 header nav {
     justify-content: space-between;
     align-items: center;
-    padding: 5px 0;
+    padding: 20px 0;
 }
 
 header nav div > ul {
@@ -15,7 +17,7 @@ header nav div > ul {
 }
 
 header nav > img{
-    width: 15%;
+    width: 10%;
 }
 
 /* MAIN */
@@ -37,30 +39,56 @@ main div .prodotti .prodotto {
     background-repeat: no-repeat;
 }
 
+/* Immagini Prodotti */
 main div .prodotti #pic1 {
     background-image: url(../img/1.webp);
+}
+
+main div .prodotti #pic1:hover {
+    background-image: url(../img/1b.webp);
 }
 
 main div .prodotti #pic2 {
     background-image: url(../img/2.webp);
 }
 
+main div .prodotti #pic2:hover {
+    background-image: url(../img/2b.webp);
+}
+
 main div .prodotti #pic3 {
     background-image: url(../img/3.webp);
+}
+
+main div .prodotti #pic3:hover {
+    background-image: url(../img/3b.webp);
 }
 
 main div .prodotti #pic4 {
     background-image: url(../img/4.webp);
 }
 
+main div .prodotti #pic4:hover {
+    background-image: url(../img/4b.webp);
+}
+
 main div .prodotti #pic5 {
     background-image: url(../img/5.webp);
+}
+
+main div .prodotti #pic5:hover {
+    background-image: url(../img/5b.webp);
 }
 
 main div .prodotti #pic6 {
     background-image: url(../img/6.webp);
 }
 
+main div .prodotti #pic6:hover {
+    background-image: url(../img/6b.webp);
+}
+
+/* Box Cuore - Preferiti */
 main #catalogo .prodotti .prodotto span.cuore {
     width: 40px;
     height: 40px;
@@ -72,16 +100,21 @@ main #catalogo .prodotti .prodotto span.cuore {
     right: 0;
 }
 
+main #catalogo .prodotti .prodotto span.cuore:hover {
+    color: red;
+}
+
+/* Box Etichette - Sconto e Sostenibilità */
 main #catalogo .prodotti .prodotto .etichetta {
     left: 0;
     bottom: 30px;
 }
-.box-etichette {
+
+main #catalogo .prodotti .prodotto .box-etichette {
     padding: 2px 5px;
     font-size: 12px;
     color: white;
     font-weight: 1000;
-    
 }
 
 main #catalogo .prodotti .prodotto .sconto {
@@ -93,12 +126,13 @@ main #catalogo .prodotti .prodotto .sostenibile {
 }
 
 main div .prodotti h5 {
-    font-weight: 100;
+    font-weight: 300;
 }
 
 main div .prodotti span.price {
     color: red;
     font-size: 12px;
+    font-weight: 700;
 }
 
 main div .prodotti span.discount {
@@ -113,13 +147,24 @@ footer {
 }
 footer div#contenitore-footer {
     justify-content: space-between;
-}
-
-footer div .misure-footer {
-    width: 400px;
-    height: 100px;
+    padding: 20px 0;
 }
 
 footer div.info {
     align-items: center;
+}
+
+footer #contenitore-footer .info div > h4,
+footer #contenitore-footer .info > h5 {
+    margin-bottom: 5px;
+}
+
+footer #contenitore-footer .info div > h5 {
+    display: inline-block;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+footer #contenitore-footer .info div > i {
+    margin: 5px 5px 0 0;
 }

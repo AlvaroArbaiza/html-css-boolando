@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* REGOLE GENERALI */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dotted black;
+    font-family: 'Roboto', sans-serif;
 }
 
+/* Centratura Pagina */
 .center {
     width: 70%;
     margin: 0 auto;
