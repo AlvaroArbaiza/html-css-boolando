@@ -2,8 +2,13 @@
 header {
     background-color: rgb(255, 105, 0);
     color: white;
+    width: 100%;
+    height: 70px;
     font-size: 14px;
     font-weight: 700;
+    position: fixed;
+    top: 0;
+    z-index: 99;
 }
 
 header nav {
@@ -21,6 +26,10 @@ header nav > img{
 }
 
 /* MAIN */
+main {
+    margin: 70px 0 90px;
+}
+
 main div#catalogo {
     justify-content: space-between;
     flex-wrap: wrap;
@@ -144,6 +153,11 @@ main div .prodotti span.discount {
 footer {
     background-color: rgb(26, 26, 26);
     color: white;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
 }
 footer div#contenitore-footer {
     justify-content: space-between;
