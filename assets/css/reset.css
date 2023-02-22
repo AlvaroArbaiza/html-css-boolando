@@ -18,3 +18,11 @@ li {
     list-style: none;
     display: inline-block;
 }
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}

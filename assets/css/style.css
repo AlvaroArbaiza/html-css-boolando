@@ -31,10 +31,9 @@ main div.prodotti {
 }
 
 main div .prodotti .prodotto {
-    display: inline-block;
     width: 100%;
     height: 500px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -60,6 +59,51 @@ main div .prodotti #pic5 {
 
 main div .prodotti #pic6 {
     background-image: url(../img/6.webp);
+}
+
+main #catalogo .prodotti .prodotto span.cuore {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    top: 5px;
+    right: 0;
+}
+
+main #catalogo .prodotti .prodotto .etichetta {
+    left: 0;
+    bottom: 30px;
+}
+.box-etichette {
+    padding: 2px 5px;
+    font-size: 12px;
+    color: white;
+    font-weight: 1000;
+    
+}
+
+main #catalogo .prodotti .prodotto .sconto {
+    background-color: rgb(255, 0, 0);
+}
+
+main #catalogo .prodotti .prodotto .sostenibile {
+    background-color: rgb(0, 128, 0);
+}
+
+main div .prodotti h5 {
+    font-weight: 100;
+}
+
+main div .prodotti span.price {
+    color: red;
+    font-size: 12px;
+}
+
+main div .prodotti span.discount {
+    text-decoration-line: line-through;
+    font-size: 12px;
 }
 
 /* FOOTER */
