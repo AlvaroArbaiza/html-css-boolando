@@ -1,37 +1,21 @@
 /* HEADER */
 header {
     background-color: rgb(255, 105, 0);
-    height: 100px;
-}
-
-.misure-prova {
-    height: 50px;
-    width: 200px;  
-}
-
-header #categorie {
-    background-color: red;
-}
-
-header #logo {
-    background-color: pink;
-}
-
-header #icone-header {
-    background-color: blueviolet;
+    color: white;
 }
 
 header nav {
     justify-content: space-between;
-    margin: 20px 0;
-}
-
-header nav div#categorie {
     align-items: center;
+    padding: 5px 0;
 }
 
-header ul {
+header nav div > ul {
     gap: 10px;
+}
+
+header nav > img{
+    width: 15%;
 }
 
 /* MAIN */
